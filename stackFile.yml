@@ -9,7 +9,6 @@ services:
       - pdo_dblib
       - pdo_firebird
       - pdo_mysql
-      - pdo_oci
       - pdo_pgsql
     pecl:
       - mongodb
