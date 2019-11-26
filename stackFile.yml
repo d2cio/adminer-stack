@@ -14,7 +14,7 @@ services:
       - mongodb
     source:
       type: download
-      url: https://github.com/vrana/adminer/releases/download/v4.7.1/adminer-4.7.1.zip
+      url: https://github.com/vrana/adminer/releases/download/v4.7.5/adminer-4.7.5.zip
     configFiles:
       - dest: vhost.conf
         src: ./configs/vhost.conf
